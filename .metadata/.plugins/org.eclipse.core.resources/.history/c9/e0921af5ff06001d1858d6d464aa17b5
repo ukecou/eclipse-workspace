@@ -1,0 +1,16 @@
+package jp.co.seraku.serabank;
+
+public class Manager extends Employee {
+	
+	private int salary;
+	
+	public Manager (int code, String name) {
+		super(code,name);
+		this.salary = 5000;
+	}
+	
+	public int getBonus() {
+		return (int) (salary *1.5);
+	
+}
+}

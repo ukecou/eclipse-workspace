@@ -1,0 +1,5 @@
+package jp.co.seraku.serabank;
+
+public abstract class Client {
+
+}

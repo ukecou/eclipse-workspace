@@ -1,0 +1,23 @@
+package jp.co.seraku.serabank;
+
+public class Customer {
+	
+	private int code;
+	private String name;
+	protected int amount;
+	protected int loan;
+	
+	public Customer (int code, String name) {
+		this.code = code;
+		this.name = name;
+	}
+	
+	public void plus(int value) {
+		if(amount * 100 > value ) {
+			loan += value * 1.12;
+			System.out.println("kasituke:" + loan + "en:desu");
+		}else {
+			System.out.println("kasemasen");
+		}
+	}
+}

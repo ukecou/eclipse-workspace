@@ -1,0 +1,49 @@
+package dev.aso;
+
+public class CarClass {
+
+	private String CarName;
+	private int Number;
+	private double Tank;
+
+	public CarClass(String CarName, int Number) { // コンストラクター
+		this.CarName = CarName;
+		this.Number = Number;
+	}
+
+	void oil(int give) {
+
+		if (Tank < 50 && Tank + give < 50) {
+			Tank += give;
+
+		} else if (Tank == 50) {
+			System.out.println("gasorinhamanntanndesu");
+		} else {
+			System.out.println("tankryouryouwokoeteimasu");
+		}
+
+	}
+
+	void Distance(double km) {
+		if (Tank >= km / 20 && km != 0) {
+			Tank -= km / 20;
+		} else if (km == 0 && km < 0) {
+			System.out.println("mukounasuujiganyuuryoku");
+		} else {
+			System.out.println("nennryougatarimasen");
+		}
+	}
+
+	String getCarName() {
+		return CarName;
+	}
+
+	int getNumder() {
+		return Number;
+	}
+
+	double getTank() {
+		return Tank;
+	}
+
+}

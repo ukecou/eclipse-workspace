@@ -1,0 +1,20 @@
+package lib.aso;
+
+public class Book {
+	//オブジェクト
+	String bookName;	//本の名前
+	int isbm;			//ISBM
+	String title;		//題名
+	String auther;		//作者
+	String publisher;	//出版社
+	int year;			//出版年
+	
+
+//コンストラクター
+
+
+	
+//詳細メソッド？
+
+
+}

@@ -1,0 +1,13 @@
+package jp.co.seraku.serabank;
+
+public class Manager extends Employee {
+	
+	public Manager (int code, String name) {
+		super(code,name, 5000);
+	}
+	
+	public int getBonus() {
+		return (int) (salary *1.5);
+	
+}
+}

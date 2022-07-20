@@ -1,0 +1,22 @@
+package dev.aso;
+
+public class SerakuCar {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+		CarClass Name = new CarClass("Aqua", 3410);
+		
+		Name.oil(100);
+		//System.out.println(Name.Tank);
+		Name.oil(20);
+		System.out.println(Name.getTank());
+		
+		Name.Distance(0);
+		Name.Distance(19);
+		System.out.println(Name.getTank());
+		
+		
+	}
+
+}

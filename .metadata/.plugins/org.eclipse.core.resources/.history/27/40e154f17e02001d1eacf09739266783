@@ -1,0 +1,36 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		//  TODO Auto-generated method stub
+		
+		
+		int age =5;
+		int totalpeople = 2;
+		
+		if(age >= 18) {
+			System.out.println("18歳以上です");
+		
+		} else if (totalpeople >= 2) {
+			System.out.print("付き添いがいるので大丈夫");
+	} else {
+		System.out.println("18歳以未満です");
+		}
+		
+		
+		}
+		
+	
+	
+	
+		int ccc = 1;
+		String A = "#";{
+				
+		while(ccc <= 4) {
+			System.out.println(A);
+			ccc = ccc + 1;
+			A = A + "#";
+		}
+	
+		}
+}

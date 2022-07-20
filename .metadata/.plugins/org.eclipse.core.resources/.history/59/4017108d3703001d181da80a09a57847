@@ -1,0 +1,14 @@
+ public class HelloWorld {
+	 public static void main(String[] args) {
+
+  
+     String AA = "Yes";
+     String BB = "No";
+     
+     if(true) {
+    	 System.out.println(AA);
+     }
+     System.out.println(AA);
+      
+  }
+}

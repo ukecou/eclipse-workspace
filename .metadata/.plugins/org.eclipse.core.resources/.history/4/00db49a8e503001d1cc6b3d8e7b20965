@@ -1,0 +1,17 @@
+package jp.co.seraku.serabank;
+
+public class Account {
+
+    int code;
+    int amount;
+    String ownername;
+    
+	void deposit(int value){
+		amount += value;
+		
+	
+		
+		
+	}
+    
+}

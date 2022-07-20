@@ -1,0 +1,9 @@
+package lib.aso;
+
+public class Administrator extends User {
+
+	public Administrator() {
+		// TODO 自動生成されたコンストラクター・スタブ
+	}
+
+}

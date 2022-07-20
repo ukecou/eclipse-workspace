@@ -1,0 +1,40 @@
+package jp.co.seraku.serabank;
+
+public class SeraBankApp {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Account myAccount = new Account();
+		
+		myAccount.ownername = "Aso";
+		myAccount.deposit(10000);
+		myAccount.code = 0000001;
+		myAccount.withdraw(100);
+		myAccount.withdraw(1000000);
+		
+		Account teradaAccount = new Account();
+		
+		teradaAccount.ownername = "terada";
+		teradaAccount.code =2;
+		teradaAccount. deposit(10000000);
+	
+		
+		
+		System.out.println(myAccount.ownername);
+		System.out.println(myAccount.amount);
+		System.out.println(myAccount.code);
+		
+		System.out.println(teradaAccount.ownername);
+		System.out.println(teradaAccount.amount);
+		System.out.println(teradaAccount.code);
+		
+		
+		teradaAccount.transher(teradaAccount,40000 );
+		System.out.println(teradaAccount);
+	}
+
+		
+	
+}
+
+

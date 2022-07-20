@@ -1,0 +1,29 @@
+ public class HelloWorld {
+	 public static void main(String[] args) {
+
+	/*	 int[] array = new int[6];
+		 
+		 for(int i = 0; i < array.length; i++) {
+			 array[i] = (i + 20) * 6;
+		 }
+		 	for(int i = 0; i < array.length; i++) {
+		 		System.out.print(array[i] + ",");
+		 	}
+	*/
+		 	int[] AA = new int[] {75, 80, 95, 100, 65, 50, 10, 0, 99};
+		 	int HH = 0;
+		 	
+		 	
+		 for(int B = 0; B < AA.length; B++) {
+			 
+			if(AA[B] > HH) {
+			  HH = AA[B];
+			  }
+		  System.out.println(HH);
+			
+		//	 for(int B = 0; B < AA.length; B++) {
+		//		System.out.println(AA[B]);
+			}
+	 }
+ }
+ 

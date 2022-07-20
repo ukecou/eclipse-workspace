@@ -1,0 +1,6 @@
+package lib.aso;
+							//本のリストClass
+public class List {
+	ArrayList
+	
+}

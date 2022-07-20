@@ -1,0 +1,16 @@
+ public class HelloWorld {
+	 public static void main(String[] args) {
+}
+  {
+    //TODO
+     String AA = "Yes";
+      String BB = "No";
+      
+      if(true){
+  System.out.println(AA);
+  }
+      else if(false) {
+    	  System.out.println(BB);
+      }
+  }
+}

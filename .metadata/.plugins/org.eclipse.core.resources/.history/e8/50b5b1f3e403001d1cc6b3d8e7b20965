@@ -1,0 +1,10 @@
+package jp.co.seraku.serabank;
+
+public class Account {
+
+    int code;
+    int amount;
+    String ownername;
+    
+	
+}

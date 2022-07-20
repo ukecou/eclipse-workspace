@@ -1,0 +1,17 @@
+
+public class test {
+
+	public static void main(String[] args) {
+		
+		String AA = "place";
+	//	 int BB = AA.length() - (AA.length()- 1);
+		// int CC = AA.length();
+		 
+		 
+		char BB = AA.charAt(0);
+		 
+		 System.out.println(BB);
+		 
+	
+	}
+}

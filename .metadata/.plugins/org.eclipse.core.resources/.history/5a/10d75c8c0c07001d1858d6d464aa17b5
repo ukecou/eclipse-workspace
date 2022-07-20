@@ -1,0 +1,22 @@
+package jp.co.seraku.serabank;
+
+public class individualClient extends Client {
+
+	public individualClient(int code, String name) {
+		super(code, name);
+		
+	}
+
+	@Override
+	public void simulateLoan(int value) {
+		if(this.account == null) {
+		   System.out.println("Please create an account to get a loan");
+		}else if(this.account.getAmount() >= value *100)
+			System.out.println("ok");
+		else 
+		System.out.println("aaa");
+	
+	
+	
+	}
+}

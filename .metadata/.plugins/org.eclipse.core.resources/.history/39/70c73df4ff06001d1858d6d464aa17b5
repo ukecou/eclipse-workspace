@@ -1,0 +1,26 @@
+package jp.co.seraku.serabank;
+
+public class Employee {
+	
+	private int code;
+	private String name;
+	protected int salary;
+	
+	public Employee(int code, String name) {
+		this.code = code;
+		this.name = name;
+		this.salary = 3000;
+	}
+
+	
+	public void info() {
+		System.out.println("Code" + "Name:" + name);
+	
+	}
+	public int getBonus() {
+		return (int) (salary *1.2);
+	}
+	
+}
+
+

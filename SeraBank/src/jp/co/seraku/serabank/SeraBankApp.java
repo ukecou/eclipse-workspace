@@ -1,0 +1,75 @@
+package jp.co.seraku.serabank;
+
+public class SeraBankApp {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+	//	Account myAccount = new Account(1,"Aso");
+		
+		
+		//System.out.println(myAccount.getcode());
+		//System.out.println(myAccount.getownerName());
+		
+	/*	myAccount.deposit(10000);
+		
+		myAccount.withdraw(100);
+		myAccount.withdraw(1000000);
+		*/
+	//	Account teradaAccount = new Account(2,"terada");
+		
+		
+	//	teradaAccount. deposit(1000);
+	
+	//	System.out.println(myAccount.getAmount());
+	//	System.out.println(teradaAccount.getAmount());
+		
+	//	teradaAccount.transher(myAccount,900 );
+	//	System.out.println(teradaAccount.getAmount());
+	//	System.out.println(myAccount.getAmount());
+	
+	
+	
+	//Employee emp1 = new Employee(1, "satou");
+	//emp1.info();
+	//System.out.println(emp1.getBonus());
+	//emp1.doPayment();
+	
+	//Manager mana1 = new Manager(1, "tanaka");
+	//mana1.info();
+	//System.out.println(mana1.getBonus());
+//	emp1.doPayment();
+	
+//	Designer desi1 = new Designer(1, "suzuki");
+//	desi1.info();
+//	System.out.println(desi1.getBonus());
+	
+		
+	//	Customer aso = new Customer (111, "aso");
+	//	aso.amount = 100000;
+	//	aso.plus(1000);
+	//	System.out.println(aso.loan);
+		
+
+	//	Legal sato = new Legal (120, "sato");
+		
+	
+	//	sato.amount(10000);
+	//	sato.abc(1000);
+	//	System.out.println(sato.loan);
+	//
+			
+	
+	
+	//individualClient aso = new individualClient(2222, "aso");
+	
+	//aso.createAccount(122. 1000);
+
+	
+		
+	  
+	      
+		
+}
+
+	
+}

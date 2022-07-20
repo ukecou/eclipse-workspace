@@ -1,0 +1,15 @@
+package dev.aso;
+
+public class SerakuCar {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+		CarClass Name = new CarClass("Aqua", 3410);
+		
+		int Tank = 100;
+		
+		
+	}
+
+}
